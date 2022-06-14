@@ -11,6 +11,7 @@
     "url": "https://github.com/lhapaipai/vite-plugin-symfony.git"
   },
   "scripts": {
+    "prepare": "npm run build",
     "dev": "tsc --build --watch",
     "build": "tsc --build"
   },
@@ -28,7 +29,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.4.1",
     "typescript": "^4.5.2",
-    "vite": "~2.8"
+    "vite": "~2.9"
   },
   "keywords": [
     "vite-plugin",
@@ -41,6 +42,6 @@
   },
   "homepage": "https://github.com/lhapaipai/vite-plugin-symfony#readme",
   "peerDependencies": {
-    "vite": "~2.8"
+    "vite": "~2.9"
   }
 }
